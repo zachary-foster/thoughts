@@ -1,0 +1,5 @@
+OTU abundance cannot be estimated reliably from read abundance due to numerous biases. 
+However, I wonder if it is possible to estimate abundance by sequenceing the same sample multiple times over a range of dilutions. 
+Highly diluted samples should only contain the most abundant OTUs. 
+A proxy for abundandance could then be the number of the dilutions that a OTU was observed in. 
+This might have the same biases as the read count... not sure. 
