@@ -1,0 +1,1 @@
+A function to convert R formula objects to a rendered form for rmarkdown. 
