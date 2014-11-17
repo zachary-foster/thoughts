@@ -6,3 +6,5 @@ output: html_document
 ---
 
 A possibly relevant study could be to take a varity of rhododendrons, record their microbioms using metabarcoding, tissue culture them, and then record the microbioms of the cultured clones to see what taxa were retained. 
+
+It would also be interesting to compare this to transmission in seed. 
