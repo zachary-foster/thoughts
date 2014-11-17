@@ -1,0 +1,8 @@
+---
+title: "Testing vertical transmission rates in tissue culture between taxa"
+author: "Zachary Foster"
+date: "11/17/2014"
+output: html_document
+---
+
+A possibly relevant study could be to take a varity of rhododendrons, record their microbioms using metabarcoding, tissue culture them, and then record the microbioms of the cultured clones to see what taxa were retained. 
