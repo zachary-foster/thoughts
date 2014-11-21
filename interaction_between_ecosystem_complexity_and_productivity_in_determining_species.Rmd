@@ -1,0 +1,48 @@
+---
+title: Interaction between ecosystem complexity and productivity in determining species
+  richness
+author: "Zachary Foster"
+date: "11/21/2014"
+output: html_document
+---
+
+```{r, echo=FALSE}
+library(knitcitations)
+library(ggplot2)
+library(reshape2)
+library(plyr)
+#bib <- read.bibtex("../References/references.bib")
+#see http://www.r-bloggers.com/knitcitations/ for more info
+```
+
+A paper I read for class (`r citet("10.1890/07-0839.1")`) explored the relationship between ecosystem complexity, productivity, and species richness.
+They proposed that complexity correlates with species richness at low-moderate productivity, but flattens/decreases with high productivity. 
+They mention a theory that states that ecosystem productivity drives species richness because it allows for larger population sizes, which mitigate the bad effects of population fluctuations. 
+
+Another way of thinking about this in the context of ecosystem complexity is to think of an ecosystem subdivided (in function, not necessarily space) into niches, each producing a proportion of the total ecosystem productivity.
+
+```{r}
+niche_num <- 1000
+data <- data.frame(niche_prop = rbinom(niche_num, size = 100, prob = .5) / niche_num)
+ggplot(data, aes(x = niche_prop)) +
+  geom_density()
+```
+
+The total gpp of each niche would then be..
+
+```{r}
+total_gpp <- 1000
+data$niche_gpp <- data$niche_prop * total_gpp
+ggplot(data, aes(x = niche_gpp)) +
+  geom_density()
+```
+
+Lets assume, for simplicity, that all species have the same minimum population size and that the same amount of gpp is needed per individual. 
+
+```{r}
+gpp_per_individual <- 1
+min_population_size <- 100
+min_species_gpp <- min_population_size*gpp_per_individual
+shade <- rbind(c(0.12,0), subset(MyDF, x > 0.12), c(MyDF[nrow(MyDF), "X"], 0))
+```
+
