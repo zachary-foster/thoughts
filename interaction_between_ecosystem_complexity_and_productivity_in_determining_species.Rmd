@@ -23,9 +23,12 @@ Another way of thinking about this in the context of ecosystem complexity is to 
 
 ```{r}
 niche_num <- 1000
-data <- data.frame(niche_prop = rbinom(niche_num, size = 100, prob = .5) / niche_num)
-ggplot(data, aes(x = niche_prop)) +
-  geom_density()
+data <- data.frame(niche_prop = rnorm(n = niche_num, mean = 10, sd = 2))
+data$niche_prop <- data$niche_prop / sum(data$niche_prop)
+
+dens <- with(density(data$niche_prop), data.frame(niche_prop = x, frequency = y))
+ggplot(dens, aes(x = niche_prop, y = frequency)) +
+  geom_line()
 ```
 
 The total gpp of each niche would then be..
@@ -33,16 +36,41 @@ The total gpp of each niche would then be..
 ```{r}
 total_gpp <- 1000
 data$niche_gpp <- data$niche_prop * total_gpp
-ggplot(data, aes(x = niche_gpp)) +
-  geom_density()
+dens <- with(density(data$niche_gpp), data.frame(niche_gpp = x, frequency = y))
+ggplot(dens, aes(x = niche_gpp, y = frequency)) +
+  geom_line() 
 ```
 
 Lets assume, for simplicity, that all species have the same minimum population size and that the same amount of gpp is needed per individual. 
+In that case, only niches with enough productivity to support at least one species population will contribute to speceis richness:
 
 ```{r}
-gpp_per_individual <- 1
+gpp_per_individual <- 0.012
 min_population_size <- 100
-min_species_gpp <- min_population_size*gpp_per_individual
-shade <- rbind(c(0.12,0), subset(MyDF, x > 0.12), c(MyDF[nrow(MyDF), "X"], 0))
+min_species_gpp <- min_population_size * gpp_per_individual
+
+dens <- with(density(data$niche_gpp), data.frame(niche_gpp = x, frequency = y))
+ggplot(dens, aes(x = niche_gpp, y = frequency)) +
+  geom_line() +
+  geom_ribbon(data = subset(dens, niche_gpp > min_species_gpp),
+              aes(ymax = frequency), ymin = 0,
+              fill = "red", colour = NA, alpha = 0.5)
 ```
+
+Therefore, as total richness changes, the number of usable niches will increase and max out:
+
+```{r}
+get_prop_of_usable_niches <- function(niche_prop, min_gpp, total_gpp) {
+  niche_gpp <- niche_prop * total_gpp
+  sum(niche_gpp >  min_gpp)
+}
+get_prop_of_usable_niches(data$niche_prop, min_species_gpp, total_gpp)
+gpp_range <- 500:3000
+usable_niches <- sapply(gpp_range, function(x) get_prop_of_usable_niches(data$niche_prop, min_species_gpp, x))
+usable_data <- data.frame(total_gpp = gpp_range, usable_niches = usable_niches)
+usable_data <- subset(usable_data, usable_niches > 0 & usable_niches < niche_num)
+ggplot(usable_data, aes(x = total_gpp, y = usable_niches)) +
+  geom_line()
+```
+
 
