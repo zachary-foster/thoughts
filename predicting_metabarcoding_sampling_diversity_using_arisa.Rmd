@@ -9,3 +9,4 @@ ARISA (Automated ribosomal intergenic spacer analysis) is simply assessing "dive
 Using a database of ITS sequences to estimate the relationship between amplicon length distribution and species richness,  could perhaps be used to estiamte that number of species/OTUs that will be sequenced in a metabarcoding experiment using the relativly cheap technique ARISA. 
 This would allow for optimizing the amount of sequenceing done on a per-sample basis when multiplexing, preventing excessive sequenceing of low-divesristy samples. 
 
+Perhaps RFLP could be used as well, reducing the need for high resolution size separation. 
