@@ -1,0 +1,43 @@
+---
+title: "Community selection garden"
+output: html_document
+---
+
+
+## Goals
+
+This idea is for a garden designed to artifically select plant communities for low maintanace, low inputs, and robust output.
+The structure of the garden itself should be as low maintanace, long-lasting, and sustainable as possible. 
+ 
+* value of produce greater than cost of maintanace
+* Any excess water runoff should be controlled and low in nutrients 
+* All water should come from natural precipitation if possible
+* No artifical fertilizers should be used. 
+* The soil microbiology should be optimized as well as the plant community
+* All plants should be able to reproduce themseleves (i.e. heirloom)
+
+
+## Artifical selection
+
+The layout will be an aggregation of simailar-shaped, but differntly sized planters.
+To start, a random selection of plants and microbes should be added, creating a variety of communities, one per planter.
+Input/output of nutrients and produce should be measured
+Sucess of a plant community will be determined by:
+
+* nutrient use effeciency
+* productivity
+* robustness
+* maintainance
+
+One or more extact optimality citeria could be used to select for communities optimized for different purposes.
+Samples of successful communities should be added to less sucessful communities, representing selection.
+At a low rate, a random mixture of organisms should be addded to all communities, representing mutation. 
+Very unsucessful communities should replace less sucessful ones, representing reproduction.
+ 
+## Building materials
+
+If possible, everything should be built of sustainable materials like rammed earth or baked clay. 
+
+
+## Planters
+
