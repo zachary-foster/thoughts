@@ -1,0 +1,9 @@
+# Lake Titicaca
+
+The highest large/deep lake in the world.
+Located at the border of Peru and Bolivia.
+Center of the [Tiwanaku](https://en.wikipedia.org/wiki/Tiwanaku) civilization.
+
+![pic](images/lake_titicaca_location.png)
+
+[google earth](https://www.google.com/maps/@-15.9003099,-69.4536199,211027m/data=!3m1!1e3)
