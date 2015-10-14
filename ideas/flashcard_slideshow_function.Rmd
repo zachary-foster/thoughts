@@ -1,0 +1,6 @@
+
+## R function to make a flashcard presesntation from a markdown file
+
+This would take a markdown file and break it up into pairs of slides constituting "flashcards".
+The file would be broken up based on a specificed level of heading (1 = "#", 2 = "##", etc).
+The first slide of each pair would be the the title of the heading and the second would display the content below the heading.
