@@ -72,3 +72,17 @@ Baiting and 454 sequencing recovered similar species, but each method had unique
 P. ramorum was found using 454 sequencing but not baiting and the presence of its DNA was confirmed by PCR of diagnostic reagions.
 
 ![vannini](images/vannini.jpg)
+
+
+# Coince 2012
+
+[Coince, Aurore, et al. "Below-ground fine-scale distribution and soil versus fine root detection of fungal and soil oomycete communities in a French beech forest." Fungal Ecology 6.3 (2013): 223-235.](http://www.sciencedirect.com/science/article/pii/S1754504813000032)
+
+Used 454 sequencing to examine the spatial distribution of fungi and oomycetes in a Beech forest in France.
+Primers ITS4 and ITS6, followed by ITS6 and ITS7 were used to amplify oomycetes; a standard Taq was used at a 53C annealing temperature.
+Fungi were amplified using ITS1F and ITS2 with an annealing temperature of 53C.
+Very few oomycetes were amplified; ITS6 and ITS7 amplified fungi instead.
+There was an effect of distance between trees and the depth of soil sampling.
+Root samples had similar results to the surrounding soil.
+
+![coince](images/coince.jpg)
