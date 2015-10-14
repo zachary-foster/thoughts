@@ -1,4 +1,23 @@
-# Lake Titicaca
+# Nazca
+
+A culture that existed 100 BC - 800 AD.
+Famous for the lines in the high desert valleys. 
+
+![pic](images/nazca_spider.jpg)
+![pic](images/nazca_map.jpg)
+
+
+# Moche
+
+A culture that existed 100 BC - 800 AD.
+Advanced pottery and casting.
+Some of the most erotic art in the ancient world.
+
+![pic](images/moche_culture_map.jpg)
+![pic](images/moche_architecture.jpg)
+
+
+# Titicaca
 
 The highest large/deep lake in the world.
 Located at the border of Peru and Bolivia.
