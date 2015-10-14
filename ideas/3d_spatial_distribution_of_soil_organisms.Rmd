@@ -1,0 +1,6 @@
+# 3D spatial distribution of soil microrganisms
+
+There is much speculation about the distribution of microorganisms in soil.
+Some studies sample around a landscape and some sampe soil depth, but I do not know of any that have used high throughput sequencing to sample a 3D grid of soil.
+By removing a pedon of soil, freezing it in liquid nitrogen, cutting it along its three dimensions into a 3D matrix, and doing amplicon metagenomics on each peice, one could estimate the distribution of soil organisms.
+Doing it at multiple resolutions (i.e. block size) would also be insteresting.
