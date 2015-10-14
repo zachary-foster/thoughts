@@ -26,3 +26,15 @@ Center of the [Tiwanaku](https://en.wikipedia.org/wiki/Tiwanaku) civilization.
 ![pic](images/lake_titicaca_location.png)
 
 [google earth](https://www.google.com/maps/@-15.9003099,-69.4536199,211027m/data=!3m1!1e3)
+
+# Anvi`o
+
+[Eren, A. Murat, et al. "Anvi’o: An advanced analysis and visualization platform for ‘omics data." PeerJ 3 (2015): e1319.](https://peerj.com/articles/1319/)
+
+Stands for advanced **an**alysis and **vi**sualization platform for **‘o**mics data.
+Toolkit for visulization and analysis of metagenomic data.
+Can bin co-assembled contigs into putative genomes and calculate sample-specific statistics.
+These statistics are mapped along the genome in circular plots.
+They test it on two data sets: infant gut microbiome over time and the response of ocean communities to oil spills.
+
+![anvio](images/anvio.jpg)
