@@ -38,3 +38,37 @@ These statistics are mapped along the genome in circular plots.
 They test it on two data sets: infant gut microbiome over time and the response of ocean communities to oil spills.
 
 ![anvio](images/anvio.jpg)
+
+# Larch
+
+The genus Larix.
+A deciduous tree in the family pinaceae common in the cooler parts of the northern hemisphere. 
+It is the dominant genus in boreal forests.
+
+![larch](images/larch.jpg)
+![larch2](images/larch2.jpg)
+![larch3](images/larch3.jpg)
+
+# Vettranio 2012
+
+[Vettraino, A.M., Bonants, P., Tomassini, A., Bruni, N. and Vannini, A. (2012), Pyrosequencing as a tool for the detection of Phytophthora species: error rate and risk of false Molecular Operational Taxonomic Units. Letters in Applied Microbiology, 55: 390–396. doi: 10.1111/j.1472-765x.2012.03310.x](http://onlinelibrary.wiley.com/doi/10.1111/j.1472-765x.2012.03310.x/abstract;jsessionid=420926B8459963D6FEEBEA3EE56E3816.f02t03?userIsAuthenticated=false&deniedAccessCustomisedMessage=)
+
+Used 454 sequencing on a mock community to determine the ability of 454 sequencing to detect pythium and phytophthora.
+Used primers ITS6 and ITS7, but did not describe PCR conditions.
+Recovered all species in mock community semi-quantitativly.
+A blast identity threshold of 98% balanced reads matched and false OTUS.
+
+![vettranio](images/vettranio.jpg)
+
+# Vannini 2012
+
+[Pyrosequencing of environmental soil samples reveals biodiversity of the Phytophthora resident community in chestnut forests Andrea Vannini, Natalia Bruni, Alessia Tomassini, Selma Franceschini, Anna Maria Vettraino FEMS Microbiology Ecology Sep 2013, 85 3 433-442; DOI: 10.1111/1574-6941.12132](http://femsec.oxfordjournals.org/content/85/3/433.abstract)
+
+Used 454 sequencing on 474 soil samples from the base of trees in two sites.
+Also used baiting on the same soil samples. 
+Samples were taken every other month for a year. 
+Primers ITS6 and ITS7 were used with a hotstart polymerase.
+Baiting and 454 sequencing recovered similar species, but each method had unique results.
+P. ramorum was found using 454 sequencing but not baiting and the presence of its DNA was confirmed by PCR of diagnostic reagions.
+
+![vannini](images/vannini.jpg)
