@@ -86,3 +86,21 @@ There was an effect of distance between trees and the depth of soil sampling.
 Root samples had similar results to the surrounding soil.
 
 ![coince](images/coince.jpg)
+
+# Sapkota 2015 
+
+[Sapkota, Rumakanta, and Mogens Nicolaisen. "An improved high throughput sequencing method for studying oomycete communities." Journal of microbiological methods 110 (2015): 33-39.](www.sciencedirect.com/science/artaicle/pii/S0167701215000275)
+
+Attempted to optimize PCR conditions for a nested PCR using ITS6 and ITS4 followed ITS6 and ITS7 by increasing annealing temperature to 59C.
+Sequenced using a 454 Junior.
+Tested new protocol on three communities:
+
+* soil samples fron Denamrk
+* infected carrot tissue
+* mock community of pythium and phytophthora
+
+They got a high proportion of oomycete reads in all communities.
+~6% of carrot lesion sequencing returned carrot sequences.
+
+![sapkota](images/sapkota.jpg)
+
