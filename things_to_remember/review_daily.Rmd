@@ -104,3 +104,13 @@ They got a high proportion of oomycete reads in all communities.
 
 ![sapkota](images/sapkota.jpg)
 
+
+# downy mildew
+
+Obligate plant pathogens in Peronosporaceae, typically plasmopara and peronospora. 
+Prefer cool humid conditions.
+Generally appears in leafs as blue-white fuzz on the underside of leaves; the top of leaves are often yellow.
+
+![symptoms](images/downy_mildew.jpg)
+![sporangia](images/downy_mildew_sporangia.jpg)
+![cycle](images/downy_mildew_cycle.jpg)
