@@ -114,3 +114,14 @@ Generally appears in leafs as blue-white fuzz on the underside of leaves; the to
 ![symptoms](images/downy_mildew.jpg)
 ![sporangia](images/downy_mildew_sporangia.jpg)
 ![cycle](images/downy_mildew_cycle.jpg)
+
+
+# Choi 2015
+
+[Choi, Young‐Joon, et al. "Towards a universal barcode of oomycetes–a comparison of the cox1 and cox2 loci." Molecular ecology resources (2015).](http://onlinelibrary.wiley.com/doi/10.1111/1755-0998.12398/full)
+
+Compared the value cox1 and cox2, and the cox2-1 spacer for barcoding of oomycetes.
+Cultures and herbarium specimens were amplified with newly developed primers and sequenced.
+Cox2 showed the greatest potential with ~95% correct identification rate.
+
+![barcode gap](images/choi_2015_gap.jpg)
