@@ -125,3 +125,15 @@ Cultures and herbarium specimens were amplified with newly developed primers and
 Cox2 showed the greatest potential with ~95% correct identification rate.
 
 ![barcode gap](images/choi_2015_gap.jpg)
+
+# Springtails
+
+The taxon Collembola in Hexapoda of uncertian evolutionary origin.
+They are primarily small microbivores, fungivores and detritivores.
+They are ubuiqitous in moist conditions and can occure in large numbers in microsites.
+The snowflea is a springtail. 
+
+![springtail](images/springtail.jpg)
+![springtail](images/springtail_leaf.jpg)
+![springtail](images/springtail_snow.jpg)
+![springtail](images/springtail_water.jpg)
