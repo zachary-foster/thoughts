@@ -1,0 +1,55 @@
+
+
+# Reproducibility in R workshop planning
+
+I am meeting with Nik and Zhian.
+
+## R review
+
+Specifying a random seed if any random numbers are used.
+
+## Rmarkdown
+
+### Chunk options
+
+* result
+* message
+* warning
+* error
+* echo
+* eval
+
+Chunk names are useful for long running analyses.
+
+`knitr::opts_chunk$set` is useful for settings defaults
+
+### Caching
+
+Using `knitr::opts_chunk$set(cache = TRUE, autodep = TRUE)` works most of the time, but can have issues if input files change.
+Can be fixed with `cache.rebuild = mtime("file_path")` in chunk option that parses the file.
+
+### YAML header 
+
+Can add table of contents, change theme and output type.
+Not needed to use Rmarkdown. 
+
+## Package management
+
+### Packrat
+
+Can be annoying to use during development.
+Using non-CRAN packages is possible but takes a little more effort.
+Possible to make analyses "self-contained"
+
+
+### Checkpoint
+
+Part (?) of the Reproducible R toolkit.
+Uses a "checkpoint server" that makes daily copies of the CRAN repository.
+Much more simple that packrat to use and understand, but limited to CRAN packages before 2014-09-17.
+
+
+## Git / Github
+
+Using it only through RStudio with only one computer might be possible to teach quickly.
+Merges might cause problems to novice users.
