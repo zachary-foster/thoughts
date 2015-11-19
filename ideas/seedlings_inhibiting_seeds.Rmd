@@ -1,0 +1,6 @@
+# Does the presence of seedlings inhibit seed production?
+
+In plants that produce seed that is not widly dispersed I would expect that there would be an evolutionary benifit to not producing addional seed if seedlings are near the parent plant or perhaps related plants.
+This would be most pronounced in plant that continually produce seed over a long period of time during which those same seeds germinate. 
+This might have an effect on fruit/grain yeilds in high density monoculture.
+If this occurs only between related plants, polyculture might be able to have a higher overall yield.
